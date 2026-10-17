@@ -1,0 +1,26 @@
+#tabContent2 > .view-setting { padding: 8px 10px 4px; }
+#tabContent2 > .view-setting > .view-set-item { min-height: 36px; }
+#tabContent2 > .dialog-user { padding: 4px 5px 10px; }
+#tabContent2 .dialog-user-title { padding-bottom: 14px; }
+#tabContent2 .dialog-user-items { gap: 12px; align-items: flex-start; padding-bottom: 10px; }
+#tabContent2 .dialog-user-item { margin: 0; }
+#tabContent2 .local-current-user input[type=text] { margin-top: 6px; }
+#tabContent2 .dialog-user-content-title { padding-top: 4px; }
+#tabContent2 .dialog-user-content { padding: 8px 0; }
+.local-save-user { margin-top: 4px; font-size: 12px; }
+.local-current-user .dialog-user-select { top: 44px; bottom: auto; }
+.local-saved-users { margin: 8px 0; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; background: #fafbff; }
+.local-saved-users-title { font-weight: 600; cursor: pointer; }
+.local-saved-users-title::after { content: "展开"; float: right; font-size: 12px; font-weight: normal; color: #5071db; }
+.local-saved-users[open] > .local-saved-users-title { margin-bottom: 6px; }
+.local-saved-users[open] > .local-saved-users-title::after { content: "收起"; }
+.local-saved-users-title:focus-visible { outline: 2px solid #5683ff; outline-offset: 3px; }
+.local-saved-users-help, .local-saved-users-empty { font-size: 12px; color: #666; margin: 6px 0; }
+.local-saved-users-grid { display: flex; flex-wrap: wrap; gap: 10px; max-height: 360px; overflow-y: auto; margin-top: 10px; }
+.local-saved-user-card { display: flex; flex-direction: column; align-items: center; width: 160px; max-width: 100%; padding: 10px; border: 1px solid #e3e6ee; border-radius: 6px; background: #fff; }
+.local-saved-user-card img { width: 48px; height: 48px; object-fit: cover; border-radius: 4px; }
+.local-saved-user-name { width: 100%; text-align: center; overflow-wrap: anywhere; margin: 6px 0; }
+.local-saved-user-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+.local-saved-user-actions .btn { font-size: 12px; padding: 4px 6px; }
+.local-saved-user-remove { border: 0; background: transparent; color: #777; font-size: 12px; margin-top: 6px; cursor: pointer; }
+.local-saved-users-status { margin-top: 8px; font-size: 12px; color: #555; overflow-wrap: anywhere; }

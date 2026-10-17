@@ -1,0 +1,24 @@
+.wxdh-image-history {
+    width: 900px;
+    max-width: 95vw;
+    max-height: 90vh;
+    overflow: auto;
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    color: #333;
+}
+.wxdh-image-history::backdrop { background: rgba(0, 0, 0, .35); }
+.wxdh-history-header { display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 1; background: #fff; padding-bottom: 10px; }
+.wxdh-history-header strong { font-size: 18px; }
+.wxdh-history-status { margin: 8px 0 14px; color: #666; }
+.wxdh-history-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+.wxdh-history-card { overflow: hidden; border: 1px solid #ddd; border-radius: 8px; padding: 8px; }
+.wxdh-history-open { display: block; width: 100%; padding: 0; border: 0; background: #fff; text-align: left; cursor: pointer; }
+.wxdh-history-open:focus-visible { outline: 2px solid #5683ff; }
+.wxdh-history-thumbnail { display: block; width: 100%; height: 180px; object-fit: cover; object-position: top; background: #eee; border-radius: 4px; margin-bottom: 8px; }
+div.wxdh-history-thumbnail { line-height: 180px; text-align: center; color: #888; }
+.wxdh-history-open strong { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-bottom: 5px; }
+.wxdh-history-open span { display: block; font-size: 12px; line-height: 1.6; color: #666; }
+.wxdh-history-delete { margin-top: 8px; color: #a33; }
